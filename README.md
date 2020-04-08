@@ -1,5 +1,5 @@
 # GraphBuilder
-![Java CI with Maven](https://github.com/moodysalem/graphbuilder/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+![Maven Build](https://github.com/moodysalem/graphbuilder/workflows/Verify%20Maven%20Project/badge.svg?branch=master)
 
 Produces a [graphql-java](https://github.com/graphql-java/graphql-java) 
 `GraphQLSchema` from `Guice` bindings.
