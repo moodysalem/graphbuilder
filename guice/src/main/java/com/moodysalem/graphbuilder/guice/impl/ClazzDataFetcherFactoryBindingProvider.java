@@ -10,6 +10,7 @@ import graphql.schema.DataFetcherFactory;
  * This is what is bound to the field data fetcher factory interface when a clazz data fetcher
  * factory is specified.
  */
+@SuppressWarnings("rawtypes")
 public class ClazzDataFetcherFactoryBindingProvider implements
     Provider<FieldDataFetcherFactory> {
 

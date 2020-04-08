@@ -10,6 +10,7 @@ import graphql.schema.DataFetcher;
  * This is what is bound to the field data fetcher interface when a clazz data fetcher is
  * specified.
  */
+@SuppressWarnings("rawtypes")
 public class ClazzDataFetcherBindingProvider implements
     Provider<FieldDataFetcher> {
 

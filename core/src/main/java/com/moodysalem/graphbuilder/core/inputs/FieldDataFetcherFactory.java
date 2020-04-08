@@ -5,6 +5,7 @@ import graphql.schema.DataFetcherFactory;
 /**
  * Binds a data fetcher factory to a schema position.
  */
+@SuppressWarnings("rawtypes")
 public interface FieldDataFetcherFactory extends FieldInformation {
 
   DataFetcherFactory getDataFetcherFactory();

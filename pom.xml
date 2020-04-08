@@ -30,7 +30,8 @@
   <scm>
     <url>http://github.com/moodysalem/graphbulder</url>
     <connection>scm:git:git://github.com/moodysalem/graphbulder.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/moodysalem/graphbulder.git
+    <developerConnection>
+      scm:git:ssh://git@github.com/moodysalem/graphbulder.git
     </developerConnection>
     <tag>HEAD</tag>
   </scm>

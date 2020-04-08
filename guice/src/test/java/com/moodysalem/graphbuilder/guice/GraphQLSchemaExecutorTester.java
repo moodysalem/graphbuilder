@@ -36,7 +36,7 @@ public class GraphQLSchemaExecutorTester {
     return getGraphQL().execute(query);
   }
 
-  @SuppressWarnings("unchecked")
+  @SuppressWarnings({"unchecked", "rawtypes"})
   <T> T executeAndGet(String query, String field) {
     ExecutionResult result = execute(query);
     assertThat(result.getErrors()).isEmpty();

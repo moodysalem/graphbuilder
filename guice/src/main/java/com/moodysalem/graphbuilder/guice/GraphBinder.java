@@ -19,7 +19,8 @@ import graphql.schema.GraphQLFieldDefinition;
  * This binder helps in binding {@code GraphQLFieldDefinition}s, {@code DataFetcher} and {@code
  * DataFetcherFactory}s for consumption by the GraphQLSchemaProvider.
  */
-public final class GraphBinder {
+@SuppressWarnings("rawtypes")
+ public final class GraphBinder {
 
   public static final class FieldBinder {
 

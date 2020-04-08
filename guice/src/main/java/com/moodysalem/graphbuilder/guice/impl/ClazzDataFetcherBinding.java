@@ -11,6 +11,7 @@ import graphql.schema.DataFetcher;
 /**
  * A field data fetcher that uses the provided Guice injector to construct the data fetcher class.
  */
+@SuppressWarnings("rawtypes")
 public class ClazzDataFetcherBinding implements FieldDataFetcher {
 
   private final Provider<Injector> injector;
